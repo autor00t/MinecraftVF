@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "5ca01e13-cd16-3227-ac7b-fe3415df766e",
+    "name": "Bartianwar",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "28a26f9d-5cfe-37f2-b449-559119d1549e",
+    "name": "auto_root",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
