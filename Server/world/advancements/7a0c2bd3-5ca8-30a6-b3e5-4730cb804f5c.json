@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2022-11-30 03:17:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_the_recipe": "2022-11-25 05:35:11 +0000"
@@ -92,6 +98,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2022-11-25 03:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-11-30 03:17:30 +0000"
     },
     "done": true
   },
@@ -281,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2022-11-30 03:20:59 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_ethereal": {
     "criteria": {
       "entered_water": "2022-11-25 02:31:07 +0000"
@@ -314,6 +332,12 @@
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-11-25 02:32:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2022-11-30 02:32:43 +0000"
     },
     "done": true
   },
@@ -605,6 +629,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2022-11-30 03:20:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2022-11-25 03:57:01 +0000"
@@ -623,6 +653,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2022-11-30 04:11:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2022-11-25 03:02:02 +0000"
@@ -638,6 +674,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2022-11-25 03:15:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2022-11-30 03:17:27 +0000"
     },
     "done": true
   },
@@ -809,6 +851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2022-11-30 03:17:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2022-11-25 03:48:46 +0000"
@@ -827,6 +875,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2022-11-30 02:32:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2022-11-25 03:05:32 +0000"
@@ -842,7 +896,8 @@
       "zombie": "2022-11-25 02:33:06 +0000",
       "witch": "2022-11-25 02:40:28 +0000",
       "spider": "2022-11-25 02:35:46 +0000",
-      "creeper": "2022-11-25 03:43:31 +0000"
+      "creeper": "2022-11-25 03:43:31 +0000",
+      "enderman": "2022-11-30 03:08:50 +0000"
     },
     "done": false
   },
@@ -855,6 +910,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-25 02:34:16 +0000"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/oil": {
+    "criteria": {
+      "in_oil": "2022-11-30 03:11:10 +0000"
     },
     "done": true
   },
@@ -891,6 +952,12 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
       "has_glass": "2022-11-25 03:05:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2022-11-30 03:17:30 +0000"
     },
     "done": true
   },
@@ -975,6 +1042,12 @@
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2022-11-25 03:05:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_block": {
+    "criteria": {
+      "has_brick": "2022-11-30 02:33:56 +0000"
     },
     "done": true
   },
@@ -1170,6 +1243,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2022-11-30 04:36:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2022-11-25 03:05:32 +0000"
@@ -1278,6 +1357,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2022-11-30 02:32:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
       "has_planks": "2022-11-25 02:30:43 +0000"
@@ -1378,6 +1463,12 @@
   "biomesoplenty:recipes/transportation/boat_hellbark": {
     "criteria": {
       "entered_water": "2022-11-25 02:31:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wooden_slab": {
+    "criteria": {
+      "has_planks": "2022-11-30 03:17:30 +0000"
     },
     "done": true
   },
@@ -1514,6 +1605,7 @@
       "forest": "2022-11-25 02:46:26 +0000",
       "deep_ocean": "2022-11-25 06:45:03 +0000",
       "beaches": "2022-11-25 03:24:16 +0000",
+      "extreme_hills_with_trees": "2022-11-30 03:15:46 +0000",
       "desert_hills": "2022-11-25 03:16:43 +0000",
       "forest_hills": "2022-11-25 02:31:09 +0000",
       "plains": "2022-11-25 02:28:17 +0000",
@@ -1690,6 +1782,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2022-11-30 02:41:29 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_jacaranda": {
     "criteria": {
       "entered_water": "2022-11-25 02:31:07 +0000"
@@ -1705,6 +1803,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2022-11-25 03:05:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2022-11-30 02:33:56 +0000"
     },
     "done": true
   },

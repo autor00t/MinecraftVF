@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow": {
+    "criteria": {
+      "has_snowball": "2022-11-30 03:29:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2022-11-25 02:38:02 +0000"
@@ -317,6 +323,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_at_least_9_emerald": "2022-11-30 03:15:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-11-25 02:38:02 +0000"
@@ -519,6 +531,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2022-11-26 02:21:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_the_recipe": "2022-11-30 03:15:51 +0000"
     },
     "done": true
   },
@@ -1288,6 +1306,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow_layer": {
+    "criteria": {
+      "has_snowball": "2022-11-30 03:29:36 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/wooden_pressure_plate_from_bop_wood": {
     "criteria": {
       "has_the_recipe": "2022-11-25 02:25:47 +0000"
@@ -1297,6 +1321,12 @@
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2022-11-25 02:38:02 +0000"
+    },
+    "done": true
+  },
+  "nuclearcraft:food/marshmallow": {
+    "criteria": {
+      "has_item": "2022-11-30 04:21:52 +0000"
     },
     "done": true
   },
@@ -1640,6 +1670,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "ice_flats": "2022-11-26 01:43:50 +0000",
+      "frozen_river": "2022-11-30 04:07:57 +0000",
       "forest": "2022-11-25 02:16:31 +0000",
       "birch_forest": "2022-11-26 01:27:34 +0000",
       "swampland": "2022-11-26 01:58:10 +0000",
@@ -1651,6 +1682,7 @@
       "plains": "2022-11-25 02:15:24 +0000",
       "savanna": "2022-11-27 20:33:09 +0000",
       "savanna_rock": "2022-11-27 20:54:08 +0000",
+      "ice_mountains": "2022-11-30 04:06:42 +0000",
       "taiga": "2022-11-25 02:44:43 +0000",
       "taiga_hills": "2022-11-26 01:49:38 +0000",
       "birch_forest_hills": "2022-11-26 01:39:22 +0000",
