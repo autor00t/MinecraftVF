@@ -1,4 +1,4 @@
-Started at: 2022-11-29T02:20:49.415
+Started at: 2022-12-06T15:10:50.292
 #############
 #
 # Loading
@@ -19,4 +19,4 @@ Found script: buildcraftcore/compat/buildcraft/book.txt
 
 Adding buildcraftlib:meta as GuideBook [ buildcraftlib:meta, title = TranslatableComponent{key='buildcraft.guide.book.meta.name', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}} ]
 Adding buildcraftcore:main as GuideBook [ buildcraftcore:main, title = TranslatableComponent{key='item.buildcraft.guide.name', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}} ]
-Finished at: 2022-11-29T02:20:49.516, took 102ms
+Finished at: 2022-12-06T15:10:50.385, took 94ms

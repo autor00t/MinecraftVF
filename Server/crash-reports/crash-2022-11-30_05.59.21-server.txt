@@ -1,0 +1,165 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  SuperMartijn642's Core Lib Plugin (supermartijn642corelib-1.0.19-forge-mc1.12.jar)
+  XaeroMinimapPlugin (Xaeros_Minimap_22.16.2_Forge_1.12.jar)
+  TransformerLoader (OpenComputers-MC1.12.2-1.7.7+5413028.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  GSHooksLoader (GalaxySpace-1.12.2-2.0.19.jar)
+  MicdoodlePlugin (Galacticraft-1.12.2-4.0.4.jar)
+  SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.3.1.jar)
+Contact their authors BEFORE contacting forge
+
+// Ouch. That hurt :(
+
+Time: 11/30/22 5:59 AM
+Description: Exception ticking world
+
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.remove(HashMap.java:1483)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73156_b(ChunkProviderServer.java:262)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:207)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.HashMap$HashIterator.remove(HashMap.java:1483)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73156_b(ChunkProviderServer.java:262)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:207)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 603 Drop: 332
+	Level seed: 2471149752145045629
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-40,64,256), Chunk: (at 8,4,0 in -3,16; contains blocks -48,0,256 to -33,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 2320222 game time, 2952312 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 93905 (now: false), thunder time: 102293 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 5.15.0-1023-azure
+	Java Version: 1.8.0_352, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2136683824 bytes (2037 MB) / 5637144576 bytes (5376 MB) up to 6442450944 bytes (6144 MB)
+	JVM Flags: 7 total; -Xmx6G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 2, allocated: 14, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 62 mods loaded, 62 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                     | Version           | Source                                          | Signature                                |
+	|:------ |:---------------------- |:----------------- |:----------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft              | 1.12.2            | minecraft.jar                                   | None                                     |
+	| LCHIJA | mcp                    | 9.42              | minecraft.jar                                   | None                                     |
+	| LCHIJA | FML                    | 8.0.99.99         | forge-1.12.2-14.23.5.2860.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                  | 14.23.5.2860      | forge-1.12.2-14.23.5.2860.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | micdoodlecore          | 4.0.4             | minecraft.jar                                   | None                                     |
+	| LCHIJA | xaerominimap_core      | 1.12.2-1.0        | minecraft.jar                                   | None                                     |
+	| LCHIJA | opencomputers|core     | 1.7.7+5413028     | minecraft.jar                                   | None                                     |
+	| LCHIJA | securitycraft          | v1.9.3.1          | [1.12.2] SecurityCraft v1.9.3.1.jar             | None                                     |
+	| LCHIJA | crafttweaker           | 4.1.20            | CraftTweaker2-1.12-4.1.20.682.jar               | None                                     |
+	| LCHIJA | jei                    | 4.16.1.301        | jei_1.12.2-4.16.1.301.jar                       | None                                     |
+	| LCHIJA | appleskin              | 1.0.14            | AppleSkin-mc1.12-1.0.14.jar                     | None                                     |
+	| LCHIJA | galacticraftcore       | 4.0.4             | Galacticraft-1.12.2-4.0.4.jar                   | None                                     |
+	| LCHIJA | galacticraftplanets    | 4.0.4             | Galacticraft-1.12.2-4.0.4.jar                   | None                                     |
+	| LCHIJA | asmodeuscore           | 0.0.30            | AsmodeusCore-1.12.2-0.0.31.jar                  | None                                     |
+	| LCHIJA | baubles                | 1.5.2             | Baubles-1.12-1.5.2.jar                          | None                                     |
+	| LCHIJA | biomesoplenty          | 7.0.1.2445        | BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar   | None                                     |
+	| LCHIJA | guideapi               | 1.12-2.1.8-63     | Guide-API-1.12-2.1.8-63.jar                     | None                                     |
+	| LCHIJA | bloodmagic             | 1.12.2-2.4.3-105  | BloodMagic-1.12.2-2.4.3-105.jar                 | None                                     |
+	| LCHIJA | buildcraftlib          | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcraftcore         | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcraftbuilders     | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcrafttransport    | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcraftsilicon      | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcraftcompat       | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcraftenergy       | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcraftfactory      | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | buildcraftrobotics     | 7.99.24.8         | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJA | chisel                 | MC1.12.2-1.0.2.45 | Chisel-MC1.12.2-1.0.2.45.jar                    | None                                     |
+	| LCHIJA | codechickenlib         | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | redstoneflux           | 2.1.1             | RedstoneFlux-1.12-2.1.1.1-universal.jar         | None                                     |
+	| LCHIJA | cofhcore               | 4.6.6             | CoFHCore-1.12.2-4.6.6.1-universal.jar           | None                                     |
+	| LCHIJA | cofhworld              | 1.4.0             | CoFHWorld-1.12.2-1.4.0.1-universal.jar          | None                                     |
+	| LCHIJA | morpheus               | 1.12.2-3.5.106    | Morpheus-1.12.2-3.5.106.jar                     | None                                     |
+	| LCHIJA | comforts               | 1.4.1.3           | comforts-1.12.2-1.4.1.3.jar                     | 2484ef4d131fdc0dca0647aa21b7b944ddb935a1 |
+	| LCHIJA | corpse                 | 1.12.2-1.0.8      | corpse-1.12.2-1.0.8.jar                         | None                                     |
+	| LCHIJA | crafttweakerjei        | 2.0.3             | CraftTweaker2-1.12-4.1.20.682.jar               | None                                     |
+	| LCHIJA | props                  | 2.6.3.7           | Decocraft-2.6.3.7_1.12.2.jar                    | None                                     |
+	| LCHIJA | elevatorid             | 1.3.14            | ElevatorMod-1.12.2-1.3.14.jar                   | None                                     |
+	| LCHIJA | falling_tree           | 2.4.0             | FallingTree-1.12.2-2.4.0.jar                    | None                                     |
+	| LCHIJA | fastleafdecay          | v14               | FastLeafDecay-v14.jar                           | None                                     |
+	| LCHIJA | fencejumper            | 1.0.5             | fencejumper-1.12-1.0.5.jar                      | None                                     |
+	| LCHIJA | galaxyspace            | 2.0.19            | GalaxySpace-1.12.2-2.0.19.jar                   | None                                     |
+	| LCHIJA | waila                  | 1.8.26            | Hwyla-1.8.26-B41_1.12.2.jar                     | None                                     |
+	| LCHIJA | ichunutil              | 7.2.2             | iChunUtil-1.12.2-7.2.2.jar                      | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | mca                    | 6.1.0             | MCA-1.12.2-6.1.0-universal.jar                  | None                                     |
+	| LCHIJA | nuclearcraft           | 2.18zzz           | NuclearCraft-2.18zzz-1.12.2.jar                 | None                                     |
+	| LCHIJA | opencomputers          | 1.7.7+5413028     | OpenComputers-MC1.12.2-1.7.7+5413028.jar        | None                                     |
+	| LCHIJA | realdrops              | 1.2.14            | RealisticItemDrops-1.2.14.jar                   | None                                     |
+	| LCHIJA | reap                   | 1.5.2             | reap-1.5.2.jar                                  | None                                     |
+	| LCHIJA | rustic                 | 1.1.7             | rustic-1.1.7.jar                                | None                                     |
+	| LCHIJA | thermalfoundation      | 2.6.7             | ThermalFoundation-1.12.2-2.6.7.1-universal.jar  | None                                     |
+	| LCHIJA | thermalexpansion       | 5.5.7             | ThermalExpansion-1.12.2-5.5.7.1-universal.jar   | None                                     |
+	| LCHIJA | thermaldynamics        | 2.5.6             | ThermalDynamics-1.12.2-2.5.6.1-universal.jar    | None                                     |
+	| LCHIJA | simplyjetpacks         | 1.12.2-2.2.20.0   | SimplyJetpacks2-1.12.2-2.2.20.0.jar             | None                                     |
+	| LCHIJA | supermartijn642corelib | 1.0.19            | supermartijn642corelib-1.0.19-forge-mc1.12.jar  | None                                     |
+	| LCHIJA | thermalcultivation     | 0.3.6             | ThermalCultivation-1.12.2-0.3.6.1-universal.jar | None                                     |
+	| LCHIJA | thermalinnovation      | 0.3.6             | ThermalInnovation-1.12.2-0.3.6.1-universal.jar  | None                                     |
+	| LCHIJA | trashcans              | 1.0.14            | trashcans-1.0.15-forge-mc1.12.jar               | None                                     |
+	| LCHIJA | travelersbackpack      | 1.0.35            | TravelersBackpack-1.12.2-1.0.35.jar             | None                                     |
+	| LCHIJA | wawla                  | 2.6.275           | Wawla-1.12.2-2.6.275.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | waystones              | 4.1.0             | Waystones_1.12.2-4.1.0.jar                      | None                                     |
+	| LCHIJA | xaerominimap           | 22.16.2           | Xaeros_Minimap_22.16.2_Forge_1.12.jar           | None                                     |
+
+	Loaded coremods (and transformers): 
+SuperMartijn642's Core Lib Plugin (supermartijn642corelib-1.0.19-forge-mc1.12.jar)
+  
+XaeroMinimapPlugin (Xaeros_Minimap_22.16.2_Forge_1.12.jar)
+  xaero.common.core.transformer.ChunkTransformer
+  xaero.common.core.transformer.NetHandlerPlayClientTransformer
+  xaero.common.core.transformer.EntityPlayerTransformer
+  xaero.common.core.transformer.AbstractClientPlayerTransformer
+  xaero.common.core.transformer.WorldClientTransformer
+  xaero.common.core.transformer.EntityPlayerSPTransformer
+  xaero.common.core.transformer.PlayerListTransformer
+  xaero.common.core.transformer.SaveFormatTransformer
+  xaero.common.core.transformer.GuiIngameForgeTransformer
+  xaero.common.core.transformer.GuiBossOverlayTransformer
+  xaero.common.core.transformer.ModelRendererTransformer
+TransformerLoader (OpenComputers-MC1.12.2-1.7.7+5413028.jar)
+  li.cil.oc.common.asm.ClassTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+GSHooksLoader (GalaxySpace-1.12.2-2.0.19.jar)
+  galaxyspace.core.hooklib.minecraft.PrimaryClassTransformer
+MicdoodlePlugin (Galacticraft-1.12.2-4.0.4.jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.3.1.jar)
+  
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

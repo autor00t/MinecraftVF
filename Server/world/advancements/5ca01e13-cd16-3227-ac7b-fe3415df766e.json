@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow": {
+    "criteria": {
+      "has_snowball": "2022-12-06 16:22:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_red_flower": "2022-11-25 22:39:12 +0000"
@@ -238,6 +244,12 @@
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2022-11-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2022-12-06 23:43:02 +0000"
     },
     "done": true
   },
@@ -518,6 +530,7 @@
       "skeleton": "2022-11-25 02:38:17 +0000",
       "zombie": "2022-11-25 02:36:50 +0000",
       "cave_spider": "2022-11-27 18:29:25 +0000",
+      "silverfish": "2022-12-06 23:13:47 +0000",
       "witch": "2022-11-25 02:32:04 +0000",
       "spider": "2022-11-25 02:32:08 +0000",
       "ghast": "2022-11-30 03:53:00 +0000",
@@ -601,6 +614,12 @@
   "galacticraftcore:galacticraft/electric_compressor": {
     "criteria": {
       "electric_compressor": "2022-11-27 04:37:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2022-12-06 23:13:46 +0000"
     },
     "done": true
   },
@@ -1430,6 +1449,7 @@
       "baked_potato": "2022-11-25 03:17:19 +0000",
       "apple": "2022-11-25 02:19:52 +0000",
       "bread": "2022-11-25 03:14:04 +0000",
+      "golden_apple": "2022-12-06 15:45:11 +0000",
       "rotten_flesh": "2022-11-25 03:13:18 +0000",
       "cooked_chicken": "2022-11-25 02:31:53 +0000",
       "mushroom_stew": "2022-11-25 04:43:09 +0000",
@@ -1631,6 +1651,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stonebrick": "2022-12-06 23:19:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "entered_water": "2022-11-25 02:32:04 +0000"
@@ -1758,6 +1784,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2022-12-06 15:18:51 +0000"
+    },
+    "done": true
+  },
+  "simplyjetpacks:te/jetpack_te2": {
+    "criteria": {
+      "jetpack_te2": "2022-12-06 22:52:20 +0000"
+    },
+    "done": true
+  },
   "simplyjetpacks:te/jetpack_te1": {
     "criteria": {
       "jetpack_te1": "2022-11-28 02:24:01 +0000"
@@ -1782,6 +1820,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2022-12-06 15:18:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2022-11-25 02:35:09 +0000"
@@ -1797,6 +1841,12 @@
   "biomesoplenty:recipes/transportation/boat_magic": {
     "criteria": {
       "entered_water": "2022-11-25 02:32:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2022-12-07 00:47:55 +0000"
     },
     "done": true
   },
@@ -1863,6 +1913,12 @@
   "minecraft:recipes/misc/gold_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2022-11-25 06:52:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stonebrick": "2022-12-06 23:19:03 +0000"
     },
     "done": true
   },
@@ -1989,6 +2045,12 @@
   "simplyjetpacks:vanilla/jetpack_vanilla1": {
     "criteria": {
       "jetpack_vanilla1": "2022-11-28 02:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow_layer": {
+    "criteria": {
+      "has_snowball": "2022-12-06 16:22:43 +0000"
     },
     "done": true
   },
@@ -2362,6 +2424,12 @@
   "minecraft:recipes/redstone/wooden_door": {
     "criteria": {
       "has_planks": "2022-11-25 02:25:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stonebrick": {
+    "criteria": {
+      "has_stonebrick": "2022-12-06 23:19:03 +0000"
     },
     "done": true
   },
